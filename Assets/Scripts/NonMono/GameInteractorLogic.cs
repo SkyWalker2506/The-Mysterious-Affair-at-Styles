@@ -32,7 +32,7 @@ namespace Game
         {
             if (currentInteractable != null)
             {
-                Interactor.Interact(currentInteractable);
+                Interactor.Interact(currentInteractable,0);
                 currentInteractable = null;
                 Interactor.InteractionUI.HideInteractionUI();
             }
