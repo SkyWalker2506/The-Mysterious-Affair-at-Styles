@@ -19,7 +19,6 @@ namespace Game
             
         public void Update()
         {
-            Debug.Log(lastCheckedTime);
             if (lastCheckedTime + checkInterval < Time.time)
             {
                 SetCurrentInteractable();
@@ -28,11 +27,11 @@ namespace Game
             }
         }
 
-        public void Interact()
+        public void Interact(int index)
         {
             if (currentInteractable != null)
             {
-                Interactor.Interact(currentInteractable,0);
+                Interactor.Interact(currentInteractable,index);
                 currentInteractable = null;
                 Interactor.InteractionUI.HideInteractionUI();
             }
@@ -41,7 +40,6 @@ namespace Game
         private void SetCurrentInteractable()
         {
             currentInteractable = Interactor.GetInteractable();
-            Debug.Log($"Interactable {currentInteractable}");
         }
         private void SetInteractionUI()
         {
