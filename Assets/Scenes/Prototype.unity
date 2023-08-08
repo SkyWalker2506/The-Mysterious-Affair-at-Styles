@@ -1001,6 +1001,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be8f8d179369243728386d56513ba42b, type: 3}
+--- !u!1 &937113062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4087362794690623671, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+  m_PrefabInstance: {fileID: 1623878248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1224967680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1191,6 +1196,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+--- !u!1 &1470799261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 504211566505535835, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+  m_PrefabInstance: {fileID: 1623878248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1606989825
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1242,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5629424101057397954, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+      propertyPath: inspectInteractables.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629424101057397954, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+      propertyPath: inspectInteractables.Array.data[0]
+      value: 
+      objectReference: {fileID: 1955180548}
+    - target: {fileID: 5629424101057397954, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+      propertyPath: inspectInteractables.Array.data[1]
+      value: 
+      objectReference: {fileID: 937113062}
+    - target: {fileID: 5629424101057397954, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+      propertyPath: inspectInteractables.Array.data[2]
+      value: 
+      objectReference: {fileID: 1470799261}
     - target: {fileID: 7755977707456722458, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
       propertyPath: m_Name
       value: Drawer
@@ -1655,6 +1681,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+--- !u!1 &1955180548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5783664258075360200, guid: 4e4c930e79482f14b89050585a789d84, type: 3}
+  m_PrefabInstance: {fileID: 1623878248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032970292
 GameObject:
   m_ObjectHideFlags: 0
