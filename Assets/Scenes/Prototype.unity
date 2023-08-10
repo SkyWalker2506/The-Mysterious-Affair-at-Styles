@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 261.8995, g: 324.45413, b: 429.43256, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -952,9 +952,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6278523990501433492, guid: be8f8d179369243728386d56513ba42b, type: 3}
+      propertyPath: <InitialLocked>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278523990501433492, guid: be8f8d179369243728386d56513ba42b, type: 3}
+      propertyPath: <InitialDoorOpen>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8723629536034893198, guid: be8f8d179369243728386d56513ba42b, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8723629536034893198, guid: be8f8d179369243728386d56513ba42b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1505,7 +1513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8453012201457717617, guid: dca4686bb15ef404da1727e48fdfddcc, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8453012201457717617, guid: dca4686bb15ef404da1727e48fdfddcc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1927,9 +1935,17 @@ PrefabInstance:
       propertyPath: initialDoorOpen
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6278523990501433492, guid: be8f8d179369243728386d56513ba42b, type: 3}
+      propertyPath: <InitialLocked>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278523990501433492, guid: be8f8d179369243728386d56513ba42b, type: 3}
+      propertyPath: <InitialDoorOpen>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8723629536034893198, guid: be8f8d179369243728386d56513ba42b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8723629536034893198, guid: be8f8d179369243728386d56513ba42b, type: 3}
       propertyPath: m_LocalPosition.x
