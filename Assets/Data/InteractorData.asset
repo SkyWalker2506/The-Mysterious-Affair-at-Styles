@@ -15,6 +15,6 @@ MonoBehaviour:
   <InteractableLayerMask>k__BackingField:
     serializedVersion: 2
     m_Bits: 64
-  <CheckAngle>k__BackingField: 90
+  <CheckAngle>k__BackingField: 150
   <CheckRadius>k__BackingField: 2
   <CheckIntervalMS>k__BackingField: 100
