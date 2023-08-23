@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 262083418}
   - component: {fileID: 262083422}
   m_Layer: 0
-  m_Name: Cook
+  m_Name: Husband
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 262083417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e06f8bd70e000b94180b50994b647089, type: 3}
+  m_Script: {fileID: 11500000, guid: df8fb89b54a34e778d2d15111fdfbe9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &360061513
